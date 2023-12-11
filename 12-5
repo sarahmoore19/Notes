@@ -1,0 +1,94 @@
+12/5 notes
+
+
+
+6. Tree in Javascript
+
+A tree is non-linear and has a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”).
+
+Tree.png
+
+Tree Data Structure
+
+Types of Trees:
+
+Binary Tree
+Binary Search Tree
+AVL Tree
+B-Tree
+Red Black Tree
+N-ary Tree
+Operations on tree data structure:
+
+Insert: Insert an element in a tree/create a tree.
+Search: Searches an element in a tree.
+Tree Traversal: The tree traversal algorithm is used in order to visit a specific node in the tree to perform a specific operation on it.
+
+
+7. Priority Queue in Javascript
+
+A priority queue is a type of queue that arranges elements based on their priority values. Elements with higher priority values are typically retrieved before elements with lower priority values.
+
+We will store the elements of the Priority Queue in the heap structure. When using priority queues the highest priority element is always the root element.
+
+
+
+8. Map in Javascript
+
+Map is a collection of elements where each element is stored as a Key, value pair. Map objects can hold both objects and primitive values as either key or value. When we iterate over the map object it returns the key, and value pair in the same order as inserted.
+
+Syntax:
+
+new Map([it])
+
+
+
+Parameter:
+
+it – It is any iterable object whose values are stored as key, value pair, If the parameter is not specified then a new map created is Empty
+Returns: A new Map object
+
+
+
+9.  Set in Javascript
+
+A set is a collection of items that are unique i.e no element can be repeated. Set in ES6 are ordered: elements of the set can be iterated in the insertion order. Set can store any type of value whether primitive or objects
+
+Syntax:
+
+new Set([it]);
+
+
+
+Parameter:
+
+
+
+it: It is an iterable object whose all elements are added to the new set created, If the parameter is not specified or null is passed then a new set created is empty.
+Returns: A new set object
+
+
+
+10. Graph in Javascript
+
+A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph can be defined as, A Graph consisting of a finite set of vertices(or nodes) and a set of edges that connect a pair of nodes.
+
+
+Graph.png
+
+Graph Data Structure
+
+Graph Representation
+
+In the graph data structure, a graph representation is a technique to store graphs in the memory of the computer. There are many ways to represent a graph:
+
+The following two are the most commonly used representations of a graph.
+
+Adjacency Matrix: An adjacency matrix represents a graph as a matrix of boolean values (0s and 1s). In a computer, a finite graph can be represented as a square matrix, where the boolean value indicates if two vertices are connected directly.
+Adjacency List: An adjacency list represents a graph as an array of linked lists where an index of the array represents a vertex and each element in its linked list represents the other vertices that are connected with the edges, or say its neighbor.
+Graph Operations:
+
+Add/Remove Vertex: Add or remove a vertex in a graph.
+Add/Remove Edge: Add or remove an edge between two vertices.
+Check if the graph contains a given value.
+Find the path from one vertex to another vertex.
